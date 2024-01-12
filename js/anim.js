@@ -21,7 +21,7 @@ class Animation {
         }, 150);
         setTimeout(() => {
             this.anim.stop();
-        }, this.anim.to * 1000 + 150);
+        }, this.anim.to * 15 + 150);
     }
 
     animateObjects() {
